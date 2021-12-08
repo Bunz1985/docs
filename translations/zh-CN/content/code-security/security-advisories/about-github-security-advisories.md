@@ -6,18 +6,22 @@ redirect_from:
   - /github/managing-security-vulnerabilities/about-maintainer-security-advisories
   - /github/managing-security-vulnerabilities/about-github-security-advisories
 versions:
-  free-pro-team: '*'
+  fpt: '*'
+type: overview
 topics:
-  - 安全
+  - Security advisories
+  - Vulnerabilities
+  - CVEs
+shortTitle: 安全通告
 ---
 
 {% data reusables.repositories.security-advisory-admin-permissions %}
 
 {% data reusables.security-advisory.security-researcher-cannot-create-advisory %}
 
-### 关于 {% data variables.product.prodname_security_advisories %}
+## 关于 {% data variables.product.prodname_security_advisories %}
 
-{% data reusables.security-advisory.disclosing-vulnerabilities %} For more information, see "[About coordinated disclosure of security vulnerabilities](/code-security/security-advisories/about-coordinated-disclosure-of-security-vulnerabilities)."
+{% data reusables.security-advisory.disclosing-vulnerabilities %} 更多信息请参阅“[关于协调披露安全漏洞](/code-security/security-advisories/about-coordinated-disclosure-of-security-vulnerabilities)”。
 
 {% data reusables.security-advisory.security-advisory-overview %}
 
@@ -25,7 +29,7 @@ topics:
 
 1. 创建安全通告草稿，并使用草稿私下讨论漏洞对项目的影响。 更多信息请参阅“[创建安全通告](/github/managing-security-vulnerabilities/creating-a-security-advisory)”。
 2. 在临时私有复刻中私下协作以修复漏洞。
-3. Publish the security advisory to alert your community of the vulnerability once a patch is released. 更多信息请参阅“[发布安全通告](/github/managing-security-vulnerabilities/publishing-a-security-advisory)”。
+3. 在补丁发布后发布通告向社区提醒漏洞。 更多信息请参阅“[发布安全通告](/github/managing-security-vulnerabilities/publishing-a-security-advisory)”。
 
 {% data reusables.repositories.security-advisories-republishing %}
 
@@ -33,13 +37,13 @@ topics:
 
 {% data reusables.repositories.security-guidelines %}
 
-If you created a security advisory in your repository, the security advisory will stay in your repository. We publish security advisories for any of the ecosystems supported by the dependency graph to the {% data variables.product.prodname_advisory_database %} on [github.com/advisories](https://github.com/advisories). If a security advisory is specifically for npm, we also publish the advisory to the npm security advisories. For more information, see [npmjs.com/advisories](https://www.npmjs.com/advisories).
+如果您在仓库中创建了安全通告，安全通告将保留在您的仓库中。 我们在 [github.com/advantores](https://github.com/advisories) 上的 {% data variables.product.prodname_advisory_database %} 发布任何由依赖关系图支持的生态系统的安全通告。 如果安全通告是专门针对 npm 的，我们也会向 npm 安全通告发布该通告。 更多信息请参阅 [npmjs.com/advisories](https://www.npmjs.com/advisories)。
 
 {% data reusables.repositories.github-security-lab %}
 
-### CVE 识别号
+## CVE 识别号
 
-{% data variables.product.prodname_security_advisories %} 基于通用漏洞披露 (CVE) 列表而构建。 The security advisory form on {% data variables.product.prodname_dotcom %} is a standardized form that matches the CVE description format.
+{% data variables.product.prodname_security_advisories %} 基于通用漏洞披露 (CVE) 列表而构建。 在 {% data variables.product.prodname_dotcom %} 上的安全通告表是符合 CVE 描述格式的标准化表格。
 
 {% data variables.product.prodname_dotcom %} 是 CVE 编号颁发机构 (CNA)，被授权分配 CVE 标识号。 更多信息请参阅 CVE 网站上的“[关于 CVE](https://cve.mitre.org/about/index.html)”和“[CVE 编号颁发机构](https://cve.mitre.org/cve/cna.html)”。
 
@@ -47,6 +51,6 @@ If you created a security advisory in your repository, the security advisory wil
 
 在您发布了安全通告并且 {% data variables.product.prodname_dotcom %} 为漏洞分配 CVE 标识号后，{% data variables.product.prodname_dotcom %} 会将 CVE 发布到 MITRE 数据库。 更多信息请参阅“[发布安全通告](/github/managing-security-vulnerabilities/publishing-a-security-advisory#requesting-a-cve-identification-number)”。
 
-### 对于发布的安全通告的 {% data variables.product.prodname_dependabot_alerts %}
+## 对于发布的安全通告的 {% data variables.product.prodname_dependabot_alerts %}
 
 {% data reusables.repositories.github-reviews-security-advisories %}

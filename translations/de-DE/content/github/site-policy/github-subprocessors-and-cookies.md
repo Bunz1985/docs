@@ -7,17 +7,17 @@ redirect_from:
   - /github-cookies/
   - /articles/github-subprocessors-and-cookies
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - policy
-  - legal
+  - Policy
+  - Legal
 ---
 
-Effective date: **January 29, 2021**
+Effective date: **April 2, 2021**
 
 GitHub bietet viel Transparenz darüber, wie wir Ihre Daten verwenden, wie wir Ihre Daten sammeln und mit wem wir Ihre Daten teilen. To that end, we provide this page, which details [our subprocessors](#github-subprocessors), and how we use [cookies](#cookies-on-github).
 
-### GitHub-Unterauftragsverarbeiter
+## GitHub-Unterauftragsverarbeiter
 
 Wenn wir Ihre Daten an Unterauftragsverarbeiter, wie z. B. unsere Anbieter und Dienstleister, weitergeben, bleiben wir für diese verantwortlich. Wir legen großen Wert darauf, Ihr Vertrauen zu erhalten, wenn wir neue Anbieter hinzuziehen, und wir verlangen von allen Anbietern, dass sie mit uns Datenschutzvereinbarungen abschließen, die deren Verarbeitung von personenbezogenen Benutzerdaten (wie in der [Datenschutzerklärung](/articles/github-privacy-statement/) definiert) einschränken.
 
@@ -33,7 +33,6 @@ Wenn wir Ihre Daten an Unterauftragsverarbeiter, wie z. B. unsere Anbieter und D
 | MailChimp                          | Kunden-Ticketing-E-Mail Dienstanbieter                          | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
 | Mailgun                            | Transaktions-Mail-Dienstanbieter                                | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
 | Microsoft                          | Microsoft Services                                              | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
-| Monday.com                         | Plattform für Teamkollaboration und Projektmanagement           | Vereinigte Staaten von Amerika | Israel                         |
 | Nexmo                              | SMS-Benachrichtigungsanbieter                                   | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
 | Salesforce.com                     | Customer Relations-Management                                   | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
 | Sentry.io                          | Application monitoring provider                                 | Vereinigte Staaten von Amerika | Vereinigte Staaten von Amerika |
@@ -44,7 +43,7 @@ Wenn wir Ihre Daten an Unterauftragsverarbeiter, wie z. B. unsere Anbieter und D
 
 Wenn wir einen neuen Unterauftragsverarbeiter einsetzen, der die personenbezogenen Daten unserer Benutzer verarbeitet, oder einen Unterauftragsverarbeiter entfernen oder die Verwendung eines Unterauftragsverarbeiter ändern, werden wir diese Seite aktualisieren. Wenn Sie Fragen oder Bedenken zu einem neuen Unterauftragsverarbeiter haben, helfen wir Ihnen gerne weiter. Bitte kontaktieren Sie uns über {% data variables.contact.contact_privacy %}.
 
-### Cookies auf GitHub
+## Cookies auf GitHub
 
 GitHub uses cookies to provide and secure our websites, as well as to analyze the usage of our websites, in order to offer you a great user experience. Please take a look at our [Privacy Statement](/github/site-policy/github-privacy-statement#our-use-of-cookies-and-tracking) if you’d like more information about cookies, and on how and why we use them.
 

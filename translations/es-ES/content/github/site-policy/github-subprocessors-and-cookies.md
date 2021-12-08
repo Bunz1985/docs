@@ -7,17 +7,17 @@ redirect_from:
   - /github-cookies/
   - /articles/github-subprocessors-and-cookies
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - política
-  - legal
+  - Policy
+  - Legal
 ---
 
-Fecha de entrada en vigor: **29 de enero de 2021**
+Fecha de entrada en vigor: **2 de abril de 2021**
 
 GitHub ofrece una gran cantidad de transparencia en cuanto a cómo usamos tus datos, cómo recopilamos tus datos y con quién los compartimos. Para este propósito, proporcionamos esta página, la cual detalla [nuestros subprocesadores](#github-subprocessors) y cómo utilizamos las [cookies](#cookies-on-github).
 
-### Subprocesadores de GitHub
+## Subprocesadores de GitHub
 
 Cuando compartimos tu información con subprocesadores de terceros, como nuestros vendedores y proveedores de servicios, seguimos siendo responsables de ella. Trabajamos arduamente para mantener tu confianza cuando traemos nuevos proveedores y exigimos que todos los proveedores celebren acuerdos de protección de datos con nosotros que restrinjan su procesamiento de la información personal de los usuarios (tal como se define en la [Declaración de Privacidad](/articles/github-privacy-statement/)).
 
@@ -33,7 +33,6 @@ Cuando compartimos tu información con subprocesadores de terceros, como nuestro
 | MailChimp                | Proveedor de servicios de correo de billetaje de clientes                                       | Estados Unidos              | Estados Unidos        |
 | Mailgun                  | Proveedor de servicios de correo transaccional                                                  | Estados Unidos              | Estados Unidos        |
 | Microsoft                | Servicios de Microsoft                                                                          | Estados Unidos              | Estados Unidos        |
-| Monday.com               | Plataforma de colaboración en equipo y gestión de proyectos                                     | Estados Unidos              | Israel                |
 | Nexmo                    | Proveedor de notificaciones SMS                                                                 | Estados Unidos              | Estados Unidos        |
 | Salesforce.com           | Gestión de relaciones con clientes                                                              | Estados Unidos              | Estados Unidos        |
 | Sentry.io                | Proveedor de monitoreo de aplicaciones                                                          | Estados Unidos              | Estados Unidos        |
@@ -44,7 +43,7 @@ Cuando compartimos tu información con subprocesadores de terceros, como nuestro
 
 Cuando traemos un nuevo subprocesador que maneja la información personal de nuestros usuarios o eliminas un subprocesador, o cambiamos la manera en que usamos un subprocesador, actualizaremos esta página. Si tienes preguntas o inquietudes acerca de un nuevo subprocesador, estaremos encantados de ayudarte. Ponte en contacto con nosotros vía{% data variables.contact.contact_privacy %}.
 
-### Cookies en GitHub
+## Cookies en GitHub
 
 GitHub utiliza cookies para proporcionar y asegurar nuestros sitios web, así como para analizar el uso de los mismos, para poder ofrecerte una gran experiencia de usuario. Por favor, echa un vistazo a nuestra [Declaración de privacidad](/github/site-policy/github-privacy-statement#our-use-of-cookies-and-tracking) si te gustaría obtener más información sobre las cookies y sobre cómo y por qué las utilizamos.
 
